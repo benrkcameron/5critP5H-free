@@ -10,3 +10,9 @@ The files currently available are:
 - All 5-vertex-critical $(P_5, tiwn-C_5)$-free graphs ([$twin-C_5$](https://graphclasses.org/smallgraphs.html#twinC5) is: the graph of order 6 with graph6 string: EhdG)
 - All 5-vertex-critical $(P_5, \overline{X_{37}})$-free graphs ([\overline{X_{37}](https://graphclasses.org/smallgraphs.html#X37) is the graph of order 6 with graph6 string: EUpo)
 - All 5-vertex-critical $(P_5, \overline{C_6})$-free graphs ($\overline{C_6}$ is the complement of the 6-cycle $C_6$)
+
+
+Despite the name of the repository, some 6-vertex-critical graph files have started to sneak in. 
+For H = $\overline{C_6}$, it is also open for $k=6$ if there are only finitely many $k$-vertex-critical $(P_5,H)$-free graphs.
+Thus, we have computed all $6$-vertex-critical $(P_5,\overline{C_6})$-free graphs of order $20$ and fewer, of which there are $11,277$. 
+With $16,009,686$ non-terminating graphs at level $19$, it is very unlikely to be able to use Jorik's program to compute these for larger orders.
